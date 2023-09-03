@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class isMultipleOfBase{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         while(true){
             Scanner input = new Scanner(System.in);
             System.out.print("Enter a number: ");
@@ -11,16 +11,16 @@ public class isMultipleOfBase{
             System.out.print("Enter the divisor: ");
             int divisor = scanner.nextInt();
 
-            if (isMultiple(number, divisor)) {
+            if (isMultiple(number, divisor)){
                 System.out.println(number + " is a multiple of " + divisor + ".");
-            } else {
+            } else{
                 System.out.println(number + " is not a multiple of " + divisor + ".");
             }
         }
     }
 
-    public static boolean isMultiple(int number, int divisor) {
-        if (divisor == 0) {
+    public static boolean isMultiple(int number, int divisor){
+        if (divisor == 0){
             return false; // Avoid division by zero
         }
         return number % divisor == 0;
@@ -28,4 +28,5 @@ public class isMultipleOfBase{
 }
 
 
-//by Arman Azarnik
+// by Arman Azarnik
+// armanazarnik@gmail.com
