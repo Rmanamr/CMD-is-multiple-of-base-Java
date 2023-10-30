@@ -34,12 +34,13 @@ public class CMD_Is_Multiple_Of_Base{
     }
 
     /** 
-     * method for calculating the factorial of input with a recursive method.
-     * @param number  int number to calculate the factoriaal
-     * @return  factorial of the input number with long data type
+     * method for calculating the wheather the entered number is a multiple of the entered divisor or not.
+     * @param number  integer number
+     * @param divisor  int number
+     * @return  boolean
      * <pre>
-     *      factorial_Calculator_Loop(0); // Output: 1
-     *      factorial_Calculator_Loop(4); // Output: 24
+     *      is_Multiple_Of_Base(80, 8); // Output: true
+     *      is_Multiple_Of_Base(44, 5); // Output: flase
      * </pre>
     */
     public static boolean is_Multiple_Of_Base(int number, int divisor){
